@@ -1,0 +1,11 @@
+[Unit]
+Description=Generate Weather HTML on boot
+After=network.target
+
+[Service]
+ExecStart=/opt/weather-outfit-suggester/scripts/generate_html.sh
+Type=oneshot
+RemainAfterExit=true
+
+[Install]
+WantedBy=multi-user.target

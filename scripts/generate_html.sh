@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # ========== 設定 ==========
-BASE_DIR="/opt/weather-site"
+BASE_DIR="/opt/weather-outfit-suggester"
 HTML_DIR="$BASE_DIR/html"
 SCRIPT_DIR="$BASE_DIR/scripts"
 DATA_FILE="$SCRIPT_DIR/data.json"
